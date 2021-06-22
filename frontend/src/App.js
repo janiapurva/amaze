@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <title>Amaze</title>
-  </head>
-  <body>
+
+
+function App() {
+  return (
     <div class="grid-container">
       <header class="row">
         <div>
@@ -23,7 +16,6 @@
         <div class="row center">
           <div class="card">
             <a href="product.html">
-              <!-- image size: 680px by 830px-->
               <img
                 class="medium"
                 src="/template/images/p1.jpeg"
@@ -92,7 +84,6 @@
 
           <div class="card">
             <a href="product.html">
-              <!-- image size: 680px by 830px-->
               <img
                 class="medium"
                 src="/template/images/p3.jpeg"
@@ -126,7 +117,6 @@
 
           <div class="card">
             <a href="product.html">
-              <!-- image size: 680px by 830px-->
               <img
                 class="medium"
                 src="/template/images/p4.jpeg"
@@ -160,7 +150,6 @@
 
           <div class="card">
             <a href="product.html">
-              <!-- image size: 680px by 830px-->
               <img
                 class="medium"
                 src="/template/images/p5.jpeg"
@@ -228,5 +217,7 @@
       </main>
       <footer class="row center">All right reserved</footer>
     </div>
-  </body>
-</html>
+  );
+}
+
+export default App;
