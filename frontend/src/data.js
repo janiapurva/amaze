@@ -7,7 +7,7 @@ const data = {
       image:"/images/p1.jpeg",
       price:85,
       brand:'American Eagle',
-      raing:4.5,
+      rating:4.5,
       numReviews:10,
       description: "High quality product"
     },
@@ -18,7 +18,7 @@ const data = {
       image:"/images/p2.jpeg",
       price:77,
       brand:'Nike',
-      raing:4.5,
+      rating:4.5,
       numReviews:10,
       description: "High quality product"
     },
@@ -29,7 +29,7 @@ const data = {
       image:"/images/p3.jpeg",
       price:88,
       brand:'Addidas',
-      raing:4.5,
+      rating:4.5,
       numReviews:10,
       description: "High quality product"
     },
@@ -40,7 +40,7 @@ const data = {
       image:"/images/p4.jpeg",
       price:95,
       brand:'Nike',
-      raing:4.5,
+      rating:4.5,
       numReviews:14,
       description: "High quality product"
     },
@@ -51,7 +51,7 @@ const data = {
       image:"/images/p5.jpeg",
       price:110,
       brand:'Express',
-      raing:4.5,
+      rating:4.5,
       numReviews:10,
       description: "High quality product"
     },
@@ -62,7 +62,7 @@ const data = {
       image:"/images/p6.jpeg",
       price:75,
       brand:'Under Armour',
-      raing:4.0,
+      rating:4.0,
       numReviews:10,
       description: "High quality product"
     }

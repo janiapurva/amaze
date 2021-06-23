@@ -1,4 +1,4 @@
-import React from "react";
+import Rating from "./Rating";
 
 function Product({ product }) {
   return (
@@ -10,23 +10,7 @@ function Product({ product }) {
         <a href={`/product/${product._id}`}>
           <h2>{product.name}</h2>
         </a>
-        <div className="rating">
-          <span>
-            <i className="fa fa-star"></i>
-          </span>
-          <span>
-            <i className="fa fa-star"></i>
-          </span>
-          <span>
-            <i className="fa fa-star"></i>
-          </span>
-          <span>
-            <i className="fa fa-star"></i>
-          </span>
-          <span>
-            <i className="fa fa-star-o"></i>
-          </span>
-        </div>
+        <Rating rating={product.rating} numReviews={product.numReviews} />
         <div className="price">${product.price}</div>
       </div>
     </div>
