@@ -27,7 +27,7 @@ function HomeScreen() {
       {loading ? (
         <LoadingBox />
       ) : error ? (
-        <MessageBox varient="danger">{error}</MessageBox>
+        <MessageBox variant="danger">{error}</MessageBox>
       ) : (
         <div className="row center">
           {products.map((product) => (
