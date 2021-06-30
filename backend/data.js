@@ -17,7 +17,6 @@ const data = {
   ],
   products: [
     {
-      _id: "1",
       name: "AE Plain Button-Up Shirt",
       category: "Shirts",
       image: "/images/p1.jpeg",
@@ -29,7 +28,6 @@ const data = {
       description: "High quality product",
     },
     {
-      _id: "2",
       name: "Short-Sleeve Button-Up Shirt",
       category: "Shirts",
       image: "/images/p2.jpeg",
@@ -41,7 +39,6 @@ const data = {
       description: "High quality product",
     },
     {
-      _id: "3",
       name: "Pineapple Button-Up Shirt",
       category: "Shirts",
       image: "/images/p3.jpeg",
@@ -53,7 +50,6 @@ const data = {
       description: "High quality product",
     },
     {
-      _id: "4",
       name: "Nike Slim Pant",
       category: "Pants",
       image: "/images/p4.jpeg",
@@ -65,7 +61,6 @@ const data = {
       description: "High quality product",
     },
     {
-      _id: "5",
       name: " Express Slim Pant",
       category: "Pants",
       image: "/images/p5.jpeg",
@@ -77,7 +72,6 @@ const data = {
       description: "High quality product",
     },
     {
-      _id: "6",
       name: "Under Armour Fit Pant",
       category: "Pants",
       image: "/images/p6.jpeg",
