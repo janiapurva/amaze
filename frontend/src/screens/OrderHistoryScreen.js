@@ -7,10 +7,10 @@ import MessageBox from "../components/MessageBox";
 function OrderHistoryScreen(props) {
   const orderMineList = useSelector((state) => state.orderMineList);
   const { loading, error, orders } = orderMineList;
-const dispatch = useDispatch();
-useEffect(() =>{
-  dispatch(listOrderMine());
-},[dispatch])
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(listOrderMine());
+  }, [dispatch]);
   return (
     <div>
       <h1>Order History</h1>
@@ -36,11 +36,11 @@ useEffect(() =>{
                 <td>{order._id}</td>
                 <td>{order.createdAt.substring(0, 10)}</td>
                 <td>{order.totalPrice.toFixed(2)}</td>
-                <td>{order.isPaid ? order.paidAt.substring(0, 10) : "No"}</td>
+                <td>{order.isPaid ? order.paidAt.substring(0, 10) : 'No'}</td>
                 <td>
                   {order.isDelivered
                     ? order.deliveredAt.substring(0, 10)
-                    : "No"}
+                    : 'No'}
                 </td>
                 <td>
                   <button

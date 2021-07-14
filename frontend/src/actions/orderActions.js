@@ -83,23 +83,23 @@ export const payOrder =
     }
   };
 
-export const listOrderMine = () => async (dispatch, getState) => {
-  dispatch({ type: ORDER_MINE_LIST_REQUEST });
-  const {
-    userSignin: { userInfo },
-  } = getState();
-  try {
-    const { data } = await Axios.get("/api/orders/mine", {
-      headers: {
-        Authorization: `Bearer ${userInfo.token}`,
-      },
-    });
-    dispatch({ type: ORDER_MINE_LIST_SUCCESS, payload: data });
-  } catch (error) {
-    const message =
-      error.response && error.response.data.message
-        ? error.response.data.message
-        : error.message;
-    dispatch({ type: ORDER_MINE_LIST_FAIL, payload: message });
-  }
-};
+  export const listOrderMine = () => async (dispatch, getState) => {
+    dispatch({ type: ORDER_MINE_LIST_REQUEST });
+    const {
+      userSignin: { userInfo },
+    } = getState();
+    try {
+      const { data } = await Axios.get('/api/orders/mine', {
+        headers: {
+          Authorization: `Bearer ${userInfo.token}`,
+        },
+      });
+      dispatch({ type: ORDER_MINE_LIST_SUCCESS, payload: data });
+    } catch (error) {
+      const message =
+        error.response && error.response.data.message
+          ? error.response.data.message
+          : error.message;
+      dispatch({ type: ORDER_MINE_LIST_FAIL, payload: message });
+    }
+  };
