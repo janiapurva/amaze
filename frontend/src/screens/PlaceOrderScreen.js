@@ -8,7 +8,7 @@ import { ORDER_CREATE_RESET } from "../constants/orderConstants";
 import LoadingBox from "../components/LodingBox";
 import MessageBox from "../components/MessageBox";
 
-function PlaceOrderScreen(props) {
+ function PlaceOrderScreen(props) {
   const cart = useSelector((state) => state.cart);
   if (!cart.paymentMethod) {
     props.history.push('/payment');
@@ -141,5 +141,4 @@ function PlaceOrderScreen(props) {
     </div>
   );
 }
-
 export default PlaceOrderScreen;
