@@ -1,5 +1,5 @@
 # amaze 
-Amaze is a E - commerce website where on Home page list of product is displayed with rating star,price and avilable stock which is send by backend server running on NodeJS and to Store data we have used MongoDB. User can buy product which is instantly  addded to cart with the help of Redux. In order to buy product user must register and sign in which is authenticated by JWT token and user data will be store in Localstorage.
+Amaze is a E - commerce website. Home page list of product is displayed with rating star,price and avilable stock which is send by backend server running on ExpressJS with NodeJS and to Store data we have used MongoDB. User can buy product which is instantly  added to cart with the help of Redux.Redux store has been widely used for updating order information, quntity. In order to buy product user must register and sign in which is authenticated by JWT token and user data will be store in Localstorage which is showed in Header.User also can update email, password and Username through User profile page .Application frontend based on React which we have used for mostly conditional rendering like when making axios call it display Loading box or if any error which display error message on client side.Every order number is randomly generated through MongoDB data base.
 ## Setup
 
 Install dependencies with `yarn install`.
