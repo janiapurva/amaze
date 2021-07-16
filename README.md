@@ -15,27 +15,66 @@ yarn start
 
 ### Home Page
 
-!["Show Page"](https://github.com/janiapurva/scheduler/blob/master/docs/Booked%20View.png)
+!["Home Page"](https://github.com/janiapurva/amaze/blob/main/images/HomeScreen.png)
 
-### Entering Name
+### Signin Page
 
-!["Entering Name"](https://github.com/janiapurva/scheduler/blob/master/docs/Entering%20name.png)
+!["Signin Page"](https://github.com/janiapurva/amaze/blob/main/images/LogInPage.png)
 
-### Error Notification
+### Register Page
 
-!["Error select Interview"](https://github.com/janiapurva/scheduler/blob/master/docs/Error%20while%20empty%20input.png)
+!["Register Page"](https://github.com/janiapurva/amaze/blob/main/images/RegisterPage.png)
 
-### Saving Window
+### Login Home Page
 
-!["Saving Window"](https://github.com/janiapurva/scheduler/blob/master/docs/Saving.png)
+!["Login Home Page"](https://github.com/janiapurva/amaze/blob/main/images/AfterLoginPage.png)
 
-### Confirm Window
+### Empty Cart Page
 
-!["Confirm Window"](https://github.com/janiapurva/scheduler/blob/master/docs/Delete%20confirm.png)
+!["Empty Cart Page"](https://github.com/janiapurva/amaze/blob/main/images/EmptyCartPage.png)
 
-### Error Window
+### Product Unavailable Status
 
-!["Error process"](https://github.com/janiapurva/scheduler/blob/master/docs/Error%20Deleting.png)
+!["Product Unavailable Status"](https://github.com/janiapurva/amaze/blob/main/images/ProductUnavilabe%20Page.png)
+
+### Product Detail View
+
+!["Product Detail View"](https://github.com/janiapurva/amaze/blob/main/images/DetailView.png)
+
+### Cart View
+
+!["Cart View"](https://github.com/janiapurva/amaze/blob/main/images/CartView.png)
+
+
+
+### Shipping address Page
+
+!["Shipping address Page"](https://github.com/janiapurva/amaze/blob/main/images/ShippingPage.png)
+
+### Payment Method Page
+
+!["Payment Method Page"](https://github.com/janiapurva/amaze/blob/main/images/PaymentMethod.png)
+
+### Place order Page
+
+!["Place order Page"](https://github.com/janiapurva/amaze/blob/main/images/PlaceOrderPage.png)
+
+### Order Confirmation Page
+
+!["Order Confirmation Page"](https://github.com/janiapurva/amaze/blob/main/images/OrderConfirmationPage.png)
+
+### After Payment Page
+
+!["After Payment Page"](https://github.com/janiapurva/amaze/blob/main/images/AfterPaymentPage.png)
+
+### Order History Page
+
+!["Order History Page"](https://github.com/janiapurva/amaze/blob/main/images/OrderHistoryPage.png)
+
+### User Profile Page
+
+!["User Profile Page"](https://github.com/janiapurva/amaze/blob/main/images/UserProfilePage.png)
+
 
 ## Dependencies
 
